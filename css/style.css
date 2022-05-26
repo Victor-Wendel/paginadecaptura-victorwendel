@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+}
+
+.formContainer {
+    max-width: 230px;
+    background-color: #bbbbbbbb;
+    padding: 20px;
+    float: right;
+}
+
+header {
+    background-color: #DF0101;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+.title {
+    font-size: 26px;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+input,
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #DF0101;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    background-image: url(../images/youngmen.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+footer{
+    padding: 40px;
+    text-align: center;
+
+}
+
+.picture {
+    width: 160px;
+}
+
+.description {
+    display: inline-block;
+    text-align: left;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+
+.description h3 {
+    font-size: 24px;
+}
+
+ 
+
+
+
+
+
